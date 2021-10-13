@@ -1,0 +1,29 @@
+<img class="logo-img" src="assets/orbit_lab_logo.png" />
+<div class="displayTable">
+  <div class="displayTableCell">
+    <h1 class="display-1 header">
+      <span class="bold">Count</span><span class="thin">down</span>
+    </h1>
+    <div class="content-wrapper d-inline-flex flex-column">
+      <h1><span class="bold blink more-space">Deadline</span></h1>
+      <h2><span class="thin">Speciale aflevering</span></h2>
+      <h2 class="tabular">04/01/2022 @ 12:00</h2>
+    </div>
+    <div class="clock-wrapper bg-dark">
+      <h3 class="display-4 my-4 text-monospace">
+        {{ countdownScience | async | json }}
+      </h3>
+    </div>
+    <div class="content-wrapper d-inline-flex flex-column">
+      <h1><span class="bold blink more-space">Deadline</span></h1>
+      <h2><span class="thin">Afgangsprojekt aflevering</span></h2>
+      <h2 class="tabular">16/12/2021 @ 12:00</h2>
+    </div>
+    <div class="clock-wrapper bg-dark">
+      <h3 class="display-4 my-4 text-monospace">
+        {{ countdownEngineering | async | json }}
+      </h3>
+    </div>
+    <a href="/">This is a secret</a>
+  </div>
+</div>
